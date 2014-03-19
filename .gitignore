@@ -1,0 +1,10 @@
+.cask/
+elpa/
+elisp/
+.org-id-locations
+url/
+tmp/
+tramp
+history
+ac-comphist.dat
+var/

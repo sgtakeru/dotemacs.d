@@ -1,6 +1,5 @@
 .cask/
 elpa/
-elisp/
 .org-id-locations
 url/
 tmp/

@@ -5,6 +5,13 @@
 (add-to-list 'auto-mode-alist '("\\.txt$" . org-mode))
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
 ;; (setq org-default-notes-file (concat org-directory "/notes.org"))
+(setq org-startup-folded "content")
+(setq org-display-custom-times "<%Y-%m-%d %H:%M:%S>")
+(setq org-time-stamp-custom-formats "<%Y-%m-%d %H:%M:%S>")
+
+; 初期表示はアウトラインで。
+;http://superuser.com/questions/357351/org-mode-let-it-open-org-files-unfolded
+(setq org-startup-folded (quote content))
 
 (setq org-directory "~/Dropbox/FreeFolders/org/")
 (setq org-default-notes-file (concat org-directory "agenda.org"))

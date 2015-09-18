@@ -25,7 +25,7 @@
 
 
 ;; カッコを強調
-(setq show-paren-delay 0)
+(setq show-paren-delay 0.125)
 (show-paren-mode 1)
 (setq show-paren-style 'expression)                    ; カッコ内の色も変更
 (set-face-background 'show-paren-match-face nil)       ; カッコ内のフェイス

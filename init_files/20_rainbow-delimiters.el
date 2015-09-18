@@ -3,4 +3,5 @@
 ;; from package
 ;; ---------------------------------------------
 (require 'rainbow-delimiters)
-(global-rainbow-delimiters-mode t)
+(rainbow-delimiters-mode t)
+;; (global-rainbow-delimiters-mode t)

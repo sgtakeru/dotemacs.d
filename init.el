@@ -65,7 +65,6 @@
 (el-get-bundle fuzzy)
 (el-get-bundle gh)
 (el-get-bundle gist)
-;; (el-get-bundle git-commit-mode)
 (el-get-bundle git-gutter)
 (el-get-bundle git-gutter+)
 (el-get-bundle gitignore-mode)

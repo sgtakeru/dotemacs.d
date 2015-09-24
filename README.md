@@ -2,13 +2,7 @@ emacs setting
 
 # Setup
 
-- Install Cask
- curl -fsSkL https://raw.github.com/cask/cask/master/go | python
- (see http://cask.github.io/installation.html)
+el-getを利用してelipsの管理してる。
+emacsを起動すれば必要なライブラリは全部入るはず。
 
-- git clone this repository and create symlink
-
-- Install many els.
-  cd .emacs.d
-  cask
-- Lunch emacs
+もしうまくいかない場合は、何度か再起動すればエラーが解消されることがある。

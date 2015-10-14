@@ -29,7 +29,6 @@
 ;; ---------------------------------------------
 (el-get-bundle apel)
 (el-get-bundle moccur-edit)
-(el-get-bundle emacswiki:popup-select-window)
 (el-get-bundle helm-etags-plus)
 (el-get-bundle org-tree-slide)
 (el-get-bundle mozc)
@@ -157,6 +156,7 @@
 (el-get-bundle elscreen)
 (el-get-bundle graphviz-dot-mode)
 (el-get-bundle sequential-command-config)
+(el-get-bundle emacswiki:popup-select-window)
 
 
 ;; ---------------------------------------------

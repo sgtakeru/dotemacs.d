@@ -48,7 +48,7 @@
 
 
 ;; 01_input-method.el  入力切替
-(global-set-key (kbd "C-M-o") 'toggle-input-method)
+;; (global-set-key (kbd "C-j") 'toggle-input-method)
 
 ;; 00_utils.el
 (global-set-key "\C-w" 'kill-region-or-backward-kill-word)

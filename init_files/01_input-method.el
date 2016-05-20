@@ -1,11 +1,17 @@
 ;; ---------------------------------------------
+;; Emacs Mac Port setting
+;; ---------------------------------------------
+(mac-auto-ascii-mode t)
+
+;; ---------------------------------------------
 ;; inputmethod for macosx
 ;; ---------------------------------------------
 (setq default-input-method "MacOSX")
 ;; 24.4にしたらエラーになった。
 ;; カーソルの色
-;; (mac-set-input-method-parameter "com.google.inputmethod.Japanese.base" `cursor-color "red")
-;; (mac-set-input-method-parameter "com.google.inputmethod.Japanese.Roman" `cursor-color "cyan")
+;; (mac-set-input-method-parameter "com.google.inputmethod.Japanese.base" 'title "あ")
+;; (mac-set-input-method-parameter "com.google.inputmethod.Japanese.base" 'cursor-color "red")
+;; (mac-set-input-method-parameter "com.google.inputmethod.Japanese.Roman" 'cursor-color "cyan"))
 
 ;; ---------------------------------------------
 ;; 日本語入力(Ubuntu)

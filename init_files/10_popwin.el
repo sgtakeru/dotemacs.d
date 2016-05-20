@@ -9,5 +9,6 @@
 (push '(dired-mode :position top)  popwin:special-display-config)
 (push '("\*ag" :regexp t :height 0.5) popwin:special-display-config)
 (push '("\*magit" :regexp t :height 0.5) popwin:special-display-config)
+(push '("\*el-get packages" :regexp t :width 0.5) popwin:special-display-config)
 (push '("COMMIT_EDITMSG" :position right :width 0.5) popwin:special-display-config)
 (push '("20[0-9]\{6\}" :regexp t :height 0.5) popwin:special-display-config)

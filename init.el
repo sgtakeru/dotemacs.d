@@ -119,8 +119,8 @@
 (el-get-bundle php-completion)
 (el-get-bundle php-mode)
 (el-get-bundle pkg-info)
-(el-get-bundle popup)
 (el-get-bundle popwin)
+(el-get-bundle popup)
 (el-get-bundle puppet-mode)
 (el-get-bundle puppetfile-mode)
 ;; (el-get-bundle python-mode)
@@ -167,3 +167,4 @@
 ;; 99    最後にやりたいやつ
 ;; ---------------------------------------------
 (init-loader-load "~/.emacs.d/init_files")
+

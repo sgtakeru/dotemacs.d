@@ -92,3 +92,10 @@
 (global-set-key (kbd "C-c c") 'org-capture)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c b") 'org-iswitchb)
+
+
+
+;; 20150108 http://www.muskmelon.jp/?page_id=410キー（Mac標準に準拠）
+(setq mac-command-key-is-meta nil)
+(setq mac-option-modifier 'meta)
+(setq mac-command-modifier 'super)

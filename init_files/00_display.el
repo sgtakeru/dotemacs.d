@@ -7,22 +7,22 @@
 
 ;; blink-cursor
 (blink-cursor-mode t)
-(setq-default cursor-type '(hbar . 2))
+(setq-default cursor-type '(bar . 3))
 
 ;; hl-line-mode
 (defface my-hl-line-face
   ;;  背景が dark ならば 背景を黒に.
   '((((class color) (background dark))
-     (:background "#000050" t))
+     (:underline "#f8f8f8" t))
     ;; 背景が light ならば背景色を緑に
     (((class color) (background light))
      ;; (:background "LightGoldenrodYellow" t))
-     (:background "#FEF4F4" t))
+     (:underline "#000050" t))
     (t (:bold t)))
   "hl-line's my face")
 (setq hl-line-face 'my-hl-line-face)
 (global-hl-line-mode 1)
-
+(smart-cursor-color-mode +1)
 
 ;; カッコを強調
 (setq show-paren-delay 0.125)

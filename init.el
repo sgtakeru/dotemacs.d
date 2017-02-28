@@ -9,6 +9,14 @@
        "https://raw.githubusercontent.com/dimitri/el-get/master/el-get-install.el")
     (goto-char (point-max))
     (eval-print-last-sexp)))
+(setq el-get-sources
+      '(
+        (:name smart-cursor-color
+               :type github
+               :description "smart-cursor-color"
+               :pkgname "7696122/smart-cursor-color"
+               :branch "master")
+        ))
 
 ;; packages
 ;; (require 'package)
@@ -42,7 +50,6 @@
 (el-get-bundle ag)
 (el-get-bundle anzu)
 (el-get-bundle auto-complete)
-(el-get-bundle cask)
 (el-get-bundle coffee-mode)
 (el-get-bundle color-moccur)
 (el-get-bundle csv-mode)
@@ -140,6 +147,7 @@
 (el-get-bundle shut-up)
 (el-get-bundle simple-httpd)
 (el-get-bundle smartrep)
+(el-get-bundle smart-cursor-color)
 (el-get-bundle ssh-config-mode)
 (el-get-bundle undo-tree)
 (el-get-bundle w3m)

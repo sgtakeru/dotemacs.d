@@ -82,7 +82,6 @@
 (el-get-bundle helm-helm-commands)
 (el-get-bundle helm-ls-git)
 (el-get-bundle helm-migemo)
-(el-get-bundle helm-rails)
 (el-get-bundle helm-rb)
 (el-get-bundle helm-rubygems-local)
 (el-get-bundle helm-themes)
@@ -120,13 +119,13 @@
 (el-get-bundle pkg-info)
 (el-get-bundle popwin)
 (el-get-bundle popup)
+(el-get-bundle projectile)
+(el-get-bundle projectile-rails)
 (el-get-bundle puppet-mode)
 (el-get-bundle puppetfile-mode)
-;; (el-get-bundle python-mode)
 (el-get-bundle rainbow-delimiters)
 (el-get-bundle rainbow-mode)
 (el-get-bundle recentf-ext)
-;; ;; (el-get-bundle rinari)
 (el-get-bundle robe)
 (el-get-bundle rsense)
 (el-get-bundle rspec-mode)
@@ -166,4 +165,3 @@
 ;; 99    最後にやりたいやつ
 ;; ---------------------------------------------
 (init-loader-load "~/.emacs.d/init_files")
-

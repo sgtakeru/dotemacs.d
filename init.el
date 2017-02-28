@@ -58,7 +58,6 @@
 (el-get-bundle expand-region)
 (el-get-bundle f)
 (el-get-bundle findr)
-(el-get-bundle elpa:foreign-regexp)
 (el-get-bundle fringe-helper)
 (el-get-bundle furl)
 (el-get-bundle fuzzy)

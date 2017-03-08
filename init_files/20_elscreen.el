@@ -2,8 +2,8 @@
 (load "elscreen" "ElScreen" t)
 (require 'elscreen)
 (if window-system
-    (define-key elscreen-map (kbd "C-z") 'iconify-or-deiconify-frame)
-  (define-key elscreen-map (kbd "C-z") 'suspend-emacs))
+    (define-key elscreen-map (kbd "C-z C-z") 'iconify-or-deiconify-frame)
+  (define-key elscreen-map (kbd "C-z C-z") 'suspend-emacs))
 (elscreen-start)
 
 

@@ -15,6 +15,9 @@
 (global-set-key (kbd "C-+") 'text-scale-increase)
 (global-set-key (kbd "C--") 'text-scale-decrease)
 
+;; ;; globalなC-zを無効化
+;; (global-unset-key "\C-z")
+
 
  ;; Use regex searches by default.
 (global-set-key (kbd "C-s") 'isearch-forward-regexp)

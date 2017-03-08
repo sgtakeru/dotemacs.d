@@ -68,6 +68,9 @@
 ;; 10_undo-tree.el
 (global-set-key (kbd "C-M-/") 'undo-tree-visualize)  ;; default C-x u
 
+;; 10_clang-format.el
+(global-set-key (kbd "C-M-<tab>") 'clang-format-region)
+
 ;; 20_anzu.el
 (global-set-key (kbd "M-%") 'anzu-query-replace-regexp)
 (global-set-key (kbd "C-M-%") 'anzu-query-replace)
